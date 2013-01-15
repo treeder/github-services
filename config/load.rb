@@ -108,6 +108,7 @@ require 'statsd'
 require 'twilio-ruby'
 require 'right_aws'
 require 'right_http_connection'
+require 'iron_mq'
 
 # vendor
 require 'basecamp'
