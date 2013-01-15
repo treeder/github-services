@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "activeresource",         "~> 3.0.0"
+gem "activeresource",         "= 3.0.19"
 gem "addressable",            "~> 2.2.7"
 gem "amqp",                   "0.6.7", :require => 'mq'
 gem "httparty",               "0.7.4"
@@ -10,14 +10,14 @@ gem "mime-types",             "~> 1.15", :require => 'mime/types'
 gem "oauth",                  "0.4.4"
 gem "sinatra",                "~> 1.2.6"
 gem "tilt",                   "~> 1.2.1"
-gem "tinder",                 "1.8.0.github"
+gem "tinder",                 "1.9.2"
 gem "mail",                   "~>2.3"
 gem "xml-simple",             "1.0.11", :require => 'xmlsimple'
-gem "xmpp4r-simple",          "0.8.8"
+gem "xmpp4r-simple-19",       "~> 1.0"
 #gem "yammer4r",              "0.1.5"
 gem "ruby-hmac",              "0.4.0"
-gem "thin",                   "1.2.2"
-gem "faraday",                "0.7.6"
+gem "thin",                   "~> 1.5.0"
+gem "faraday",                "~> 0.8.0"
 gem "rake",                   "0.8.7"
 gem "SystemTimer", :platforms => :ruby_18
 gem "statsd-ruby",            "0.3.0.github.1"
@@ -29,3 +29,4 @@ gem "mqtt", 			      "0.0.8"
 gem "softlayer_messaging", "~> 1.0.2"
 gem "aws-sdk", "1.6.8"
 gem "unicorn", "~> 4.5.0"
+gem "iron_mq", "~> 3.0.2"
