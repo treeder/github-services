@@ -24,7 +24,7 @@ class Service::IronMQ < Service
       # can pick out certain event types if it makes sense
     end
 
-    ironmq = ::IronMQ::Client.new(token: data['token'].to_s, project_id: project_id)
+    ironmq = ::IronMQ::Client.new(:token => data['token'].to_s, :project_id => project_id)
     queue = ironmq.queue(queue_name)
     if project_id == '111122223333444455556666'
       # test
